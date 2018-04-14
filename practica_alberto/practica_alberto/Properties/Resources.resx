@@ -118,40 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="settings_78352" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings_78352.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="csharp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\csharp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ScreenShot_20180413224350" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ScreenShot_20180413224350.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="technical-support_icon-icons.com_52812" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\technical-support_icon-icons.com_52812.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="proximamente" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\proximamente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="chloe_moretz_14-1920x1200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chloe_moretz_14-1920x1200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1489186740-constructgearoptimizerepairsetting_81823" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1489186740-constructgearoptimizerepairsetting_81823.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="close_6303" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close_6303.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ScreenShot_20180413223446" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ScreenShot_20180413223446.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="users-team_icon-icons.com_57998" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\users-team_icon-icons.com_57998.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo-C-Sharp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo-C-Sharp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="close_6303" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_6303.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1489186740-constructgearoptimizerepairsetting_81823" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1489186740-constructgearoptimizerepairsetting_81823.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proximamente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\proximamente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ScreenShot_20180413225134" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ScreenShot_20180413225134.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="37777606" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\37777606.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScreenShot_20180413224350" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScreenShot_20180413224350.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings_78352" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings_78352.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo-C-Sharp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo-C-Sharp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="technical-support_icon-icons.com_52812" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\technical-support_icon-icons.com_52812.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="csharp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\csharp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="38146264" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\38146264.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chloe_moretz_14-1920x1200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chloe_moretz_14-1920x1200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="38364746" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\38364746.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

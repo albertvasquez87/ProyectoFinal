@@ -73,6 +73,36 @@ namespace practica_alberto.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _37777606 {
+            get {
+                object obj = ResourceManager.GetObject("37777606", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _38146264 {
+            get {
+                object obj = ResourceManager.GetObject("38146264", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _38364746 {
+            get {
+                object obj = ResourceManager.GetObject("38364746", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap chloe_moretz_14_1920x1200 {
             get {
                 object obj = ResourceManager.GetObject("chloe_moretz_14-1920x1200", resourceCulture);
