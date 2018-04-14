@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D0613DB3-27E1-4632-AB9D-23911F2088EB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>practica_alberto</RootNamespace>
+    <AssemblyName>practica_alberto</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agenda.cs" />
+    <Compile Include="fmCondicion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmCondicion.Designer.cs">
+      <DependentUpon>fmCondicion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmRacionales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmRacionales.Designer.cs">
+      <DependentUpon>fmRacionales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmRepeticion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmRepeticion.Designer.cs">
+      <DependentUpon>fmRepeticion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmSeleccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmSeleccion.Designer.cs">
+      <DependentUpon>fmSeleccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grupo.Designer.cs">
+      <DependentUpon>grupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="programa1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="programa1.Designer.cs">
+      <DependentUpon>programa1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="programa2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="programa2.Designer.cs">
+      <DependentUpon>programa2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="programa3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="programa3.Designer.cs">
+      <DependentUpon>programa3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="proximamente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="proximamente.Designer.cs">
+      <DependentUpon>proximamente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="variables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="variables.Designer.cs">
+      <DependentUpon>variables.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="fmCondicion.resx">
+      <DependentUpon>fmCondicion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRacionales.resx">
+      <DependentUpon>fmRacionales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmRepeticion.resx">
+      <DependentUpon>fmRepeticion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSeleccion.resx">
+      <DependentUpon>fmSeleccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grupo.resx">
+      <DependentUpon>grupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="programa1.resx">
+      <DependentUpon>programa1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="programa2.resx">
+      <DependentUpon>programa2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="programa3.resx">
+      <DependentUpon>programa3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="proximamente.resx">
+      <DependentUpon>proximamente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="variables.resx">
+      <DependentUpon>variables.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csharp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users-team_icon-icons.com_57998.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\technical-support_icon-icons.com_52812.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1489186740-constructgearoptimizerepairsetting_81823.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_78352.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_6303.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chloe_moretz_14-1920x1200.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proximamente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo-C-Sharp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScreenShot_20180413223446.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScreenShot_20180413224350.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScreenShot_20180413225134.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
